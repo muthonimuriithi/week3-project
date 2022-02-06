@@ -1,18 +1,21 @@
-function check(){
-    var c=0;
+function checkScore(){
+   var quiz1=document.getElementsByName(question1);
+   var quiz2=document.getElementsByName(question2);
+   var quiz3=document.getElementsByName(question3);
+   var quiz4=document.getElementsByName(question4);
+   var quiz5=document.getElementsByName(question5);
 
-    var q1=document.quiz.question1.value;
-    var q2=document.quiz.question2.value;
-    var q3=document.quiz.question3.value;
-    var q4=document.quiz.question4.value;
-    var q5=document.quiz.question5.value;
-
-    if(question1=="HTML") {c++}
-    if(question2=="JS") {c++}
-    if(question3=="Yes") {c++}
-    if(question4=="script") {c++}
-    if(question5=="Both the head and body section") {c++}
-    document.write(c);
+   var c=0;
+   for(var i=0, length=quiz1.length;i<length;i++){
+       if(quiz1[i].checked){
+           var ans1=quiz1[i].value; 
+           if(quiz1[i].value==='A'){
+               c+=2
+           }
+       }
+   }
+   document.getElementById("submission").value="your score is"+c;
 }
+
 
 
