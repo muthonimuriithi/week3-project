@@ -1,9 +1,17 @@
 .QZ1{
     margin-top: 30px;
-    text-shadow: 5px;
+    background-color: rgb(9, 255, 0);
+    color: blue;
 }
 .QZ2{
+    margin-top: 30px;}
+    
+.QZ3{
     margin-top: 30px;
-}.QZ3{
+}
+.QZ4{
+    margin-top: 30px;
+}
+.QZ5{
     margin-top: 30px;
 }
