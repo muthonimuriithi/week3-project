@@ -11,13 +11,13 @@
 <body>
    
     
-   <form name="quiz">  id="quiz'>
+   <form name="quiz">
 
        <div class="QZ1">
            <p>1.What is the shortform of HTML?</p>
-           <p><input type="radio" name="question1"  value="HTML">A. HTML </p>
-           <p><input type="radio" name="question1"  value="HLMT">B. HLMT</p> 
-           <p><input type="radio"  name="question1"   value="MLHT">C. MLHT</p>
+           <p><input type="radio" name="question1"  value="A">A. HTML </p>
+           <p><input type="radio" name="question1"  value="B">B. HLMT</p> 
+           <p><input type="radio"  name="question1"   value="C">C. MLHT</p>
         </div>
         
         <div class="QZ2">
@@ -29,23 +29,22 @@
                        </div>
 
 
-                       <div class="QZ3">
-                        <p>3.Is C++ a low level language?</p>
-                        <p><input type="radio" name="question3"  value="Yes">A.Yes</p>
-                        <p><input type="radio" name="question3"  value="No">B.No</p>               
+            <div class="QZ3">
+               <p>3.Is C++ a low level language?</p>
+               <p><input type="radio" name="question3"  value="Yes">A.Yes</p>
+               <p><input type="radio" name="question3"  value="No">B.No</p>               
                                 
-                                </div>
+             </div>
 
 
         
 
-                    <div class="QZ4">
-                        <p>4.Inside which HTML element do we put the java script?</p>
-                        <p><input type="radio"  name="question4"  value="JS">A.JS</p>
-                        <p><input type="radio"  name="question4"  value="scripting">B.scripting</p>
-                        <p><input type="radio"  name="question4"  value="scrip">C.script</p>
-                        
-                    </div>
+             <div class="QZ4">
+               <p>4.Inside which HTML element do we put the java script?</p>
+               <p><input type="radio"  name="question4"  value="JS">A.JS</p>
+               <p><input type="radio"  name="question4"  value="scripting">B.scripting</p>
+               <p><input type="radio"  name="question4"  value="scrip">C.script</p>
+            </div>
 
                     <div class="QZ5">
                         <p>5. Where is the correct place to insert a java script?</p>
@@ -55,8 +54,15 @@
                         
                     </div>
 
+                    <button type="button"  id="submit" onclick="checkScore()">submit</button>
 
-        <input type="button" name=""  value="submit" onclick="check()">
+
+        
+        <div>
+            <output id="submission"></output>
+
+
+        </div>
     </form>
     
      
