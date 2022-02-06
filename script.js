@@ -1,19 +1,13 @@
-function checkScore(){
-    var quiz1=document.getElementById("question1");
-    var quiz2=document.getElementById("question2");
-    var quiz3=document.getElementById("question3");
-    var quiz4=document.getElementById("question4");
-    var quiz5=document.getElementById("question5");
-    var score=0;
+function check(){
+    var a=0;
+    var q1=document.quiz.question1.value;
+    var q2=document.quiz.question2.value;
+    var q3=document.quiz.question3.value;
+    var q4=document.quiz.question4.value;
+    var q5=document.quiz.question5.value;
 
-    for(var l=0,length=quiz1.length; l<length; l++){
-        if(quiz1[l].checked){
-            var answer1=quiz1[l].value
-            if(quiz1[l].value==='A'){
-                score+=5
-            }
-        }
-    }
+
+
 }
 
 
