@@ -68,6 +68,6 @@ SOFTWARE.
 
 email - [Loise Muthoni] loisemuthoni181@gmail.com
 
-
+Figma link  https://www.figma.com/file/u2CKi4gyhxDeCoYwmFb7oj/Untitled?node-id=0%3A1
 
 [Go Back to the top](#week3-project)
